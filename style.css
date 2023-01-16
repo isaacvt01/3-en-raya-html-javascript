@@ -1,0 +1,88 @@
+body{
+    background-color: beige;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#tablero{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 462px;
+    height: 462px;
+}
+
+#d0{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d2{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d3{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d4{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d5{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d6{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d7{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#d8{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+
+.jugador1{
+
+    background-image: url("./images/circulo.jpg");
+}
+
+.jugador2{
+    background-image: url("./images/equis.jpg");
+}
+#resultado{
+    margin: 10px;
+}
+#finalizado{
+    margin-top: 10px;
+    color: brown;
+    font-size: 20px;
+}
